@@ -1,0 +1,49 @@
+
+@media (max-width: 900px){
+    #page-home{
+        background-position-x: 70vw;
+    }
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a{
+        position: absolute;
+        bottom: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main{
+        align-items: center;
+    }
+    #page-search-result .cards{
+        grid-template-columns: 1fr;
+    }
+    #page-search-result .cards img{
+        height: 230px;
+    }
+    #page-create-point .fild-group{
+        flex-direction: column;
+    }
+    #page-create-point .fild-group .fild + .fild{
+        margin-left: 0;
+    }
+    div.itens-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1700px){
+    #page-home{
+        background-position: 40vw;
+    }
+}
+
+@media (max-height: 760px){
+    #page-home{
+        background-position-y: 150px;
+    }
+
+}
